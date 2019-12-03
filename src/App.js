@@ -1,20 +1,18 @@
-import Search from './Search';
-import MovieList from './MovieList';
-
+import React,{Component}  from 'react';
 import './App.css';
-import React, { Component } from 'react'
+import Todo from './todo'
 
+import { connect } from 'react-redux'
 
- class App extends Component {
-  render() {
-    return (
-      <div>
-         <Search/>
-      <MovieList/>
-      </div>
-    )
+class App extends Component {
+  render(){
+  return (
+    <div className="App">
+      <Todo/>
+    </div>
+  );
   }
-  }
+}
 
-export default App 
 
+export default App;
