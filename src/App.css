@@ -1,0 +1,8 @@
+
+img{
+    width: 200px
+}
+.onemovie{
+    display: flex;
+    justify-content: space-between
+}
